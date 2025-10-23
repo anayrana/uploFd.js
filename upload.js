@@ -18,7 +18,7 @@ async function getSheetData() {
 }
 
 async function uploadToMeili(data) {
-  const response = await fetch(`${MEILISEARCH_HOST}/indexes/manhwa/documents`, {
+  const response = await fetch(`${MEILISEARCH_HOST}/indexes/MANHWA/documents`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
