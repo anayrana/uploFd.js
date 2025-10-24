@@ -1,5 +1,5 @@
 {
-  "name": "manhwa-uploader",
+  "name": "manhwa",
   "version": "1.0.0",
   "main": "upload.js",
   "type": "module",
