@@ -60,7 +60,7 @@ async function uploadToMeili(data) {
     },
     body: JSON.stringify({
       searchableAttributes: ["title", "tags", "description", "genre"],
-      displayedAttributes: ["id", "title", "image", "description", "tags", "genre"],
+      displayedAttributes: ["id", "title", "coverImage", "description", "tags", "genre"],
     }),
   });
 
