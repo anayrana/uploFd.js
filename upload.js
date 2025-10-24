@@ -23,7 +23,7 @@ async function getSheetData() {
 
 async function uploadToMeili(data) {
   // 1️⃣ Create index (if not already exists)
-  await fetch(`${MEILISEARCH_HOST}/indexes/manhwa`, {
+  await fetch(`${MEILISEARCH_HOST}/indexes`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
