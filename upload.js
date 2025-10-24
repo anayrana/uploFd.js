@@ -5,7 +5,7 @@ const MEILISEARCH_MASTER_KEY = process.env.MEILISEARCH_MASTER_KEY;
 const SHEET_URL = process.env.SHEET_URL;
 
 async function getSheetData() {
-  const csvUrl = SHEET_URL.replace("/pubhtml", "/pub?output=csv");
+  const csvUrl = SHEET_URL;
   const res = await fetch(csvUrl);
   const text = await res.text();
 
